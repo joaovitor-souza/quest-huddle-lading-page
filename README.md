@@ -1,5 +1,5 @@
 # Frontend Mentor - Huddle Lading page
-Um projeto com HTML e CSS proposto pelo curso DevQuest, disponível no [site frontendmentor.
+Um projeto com HTML e CSS proposto pelo curso DevQuest, disponível no site frontendmentor.
 
 [<img src="./src/design/desktop-design.jpg">]
 
