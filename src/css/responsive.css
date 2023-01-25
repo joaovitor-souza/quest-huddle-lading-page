@@ -1,26 +1,23 @@
-@media(max-width:900px){
-    body{
+@media(max-width:900px) {
+    body {
         grid-template-columns: 1fr;
-        
+
     }
 
-    .hero{
-    display: grid;
-    grid-template-columns: 1fr;
-    display: flex;
-    flex-direction: column;
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
-    .hero img{
+    .hero img {
         width: 400px;
     }
 
-    .hero div:first-child{
-        margin: 0 auto;
-        
+    .hero .illustration{
+       text-align: center;
     }
 
-    .hero div:last-child{
+    .hero .information {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -28,18 +25,18 @@
         padding-top: 40px;
     }
 
-    .hero .title{
+    .hero .title {
         text-align: center;
         font-size: 35px;
     }
 
 
-    .hero .description{
+    .hero .description {
         padding-top: 20px;
         text-align: center;
     }
 
-    .hero button{
+    .hero button {
         padding-inline: 80px;
     }
 
@@ -48,4 +45,3 @@
     }
 
 }
-    

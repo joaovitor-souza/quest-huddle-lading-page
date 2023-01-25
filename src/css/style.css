@@ -8,8 +8,11 @@ body{
     repeat(2, 1fr);
     min-height: 100vh;
     background-image: url(../images/bg-desktop.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     background-color: hsl(257, 40%, 49%);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .header{
@@ -27,7 +30,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-family: 'Open Sans', sans-serif;
-    padding: 20px 30px;
+    padding: 20px 34px;
 }
 
 .hero img{
@@ -35,22 +38,23 @@ body{
     margin: 0 auto;
 }
 
-.hero div:first-child{
+.hero .illustration{
     margin-right: 50px;
 }
 
-.hero div:last-child{
-    padding-top: 45px;
+.hero .information{
+    padding-top: 30px;
 }
 
 .hero .title{
-    font-size: 40px;
+    font-size: 50px;
     color: #fff;
 }
 
 .hero .description{
-    padding-top: 10px;
-    font-size: 18px;
+    padding-top: 15px;
+    line-height: 35px;
+    font-size: 21px;
     color: #fff;
 }
 
@@ -78,7 +82,7 @@ body{
     align-items: start;
     justify-content: end;
     gap: 20px;
-    padding: 30px;
+    padding: 20px;
 }
 
 .footer a{
@@ -87,21 +91,17 @@ body{
     height: 40px;
     border-radius: 50%;
     border: solid 1px #fff;
-    transition: 0.3s;
+    transition: 0.4s;
+    color: #fff;
 }
 
-.footer a:hover{
+.footer a:hover {
     cursor: pointer;
     border: solid 1px hsl(300, 69%, 71%);
     color: hsl(300, 69%, 71%);   
 }
 
 .footer .icons{
-    padding-top: 10px;
-    color: #fff;
-    transition: 0.3s;
+    padding-top: 11px;
 }
 
-.footer .icons:hover{
-    color:  hsl(300, 69%, 71%);
-}
